@@ -1,0 +1,377 @@
+/*
+Theme Name: MegaShop Craft
+Theme URI: http://wordpress.templatemela.com/woo/WCM01/WCM010013/WP10/
+Author: TemplateMela
+Author URI: http://www.templatemela.com/
+Description: TemplateMela Theme based on Default Wordpress Theme
+Version: 1.0
+License: Commercial
+License URI: http://www.templatemela.com/license
+Tags: orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, fluid-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: megashop_craft
+Template: WCM010013
+*/
+@import url("../WCM010013/style.css");
+/* Theme Color */
+
+/**********************Basic Structure***********/
+.banner{
+    list-style:none;
+}
+.topbar-main, .header-main, .slider_area_inner, .footer_inner, .main-content-inner, .full-width .inner-container, .panel-row-style-inner-container, .main-content.left-sidebar, .top_main{
+    width:1200px;
+}
+.category-toggle{
+    width: 214px;
+}
+.product-categories{
+    width: 232px;
+    margin: -2px -4px 0;
+    background: #B3E19C;
+    padding: 0px 4px;
+}
+.left-sidebar #primary {
+    width: 78.2%;
+	margin-top: 20px;
+}
+.header-search button[type="submit"]:hover {
+    background: #B3E19C;
+}
+.blog-posts-content .post-title a:hover {
+    color: #ca9ce1;
+}
+#brand-products .owl-theme .owl-controls .owl-buttons div.owl-next {
+    background: url("images/megnor/sprite.png") no-repeat scroll -230px -382px transparent;
+}
+#brand-products .owl-theme .owl-controls .owl-buttons div.owl-prev {
+    background: url("images/megnor/sprite.png") no-repeat scroll -190px -382px transparent;
+}
+.site-footer a:hover {
+    background: url("images/megnor/footerdot_hover.png") no-repeat scroll 1px center transparent;
+}
+.brand-carousel a, .brand-carousel a:hover {
+    background: none;
+}
+.footer-menu-links a, .footer-menu-links a:hover, .site-info a, .site-info a:hover {
+    background: none;
+}
+.menu-category ul li ul li a:hover {
+    background: url("images/megnor/cat_arrow_hover.png") no-repeat scroll 0 center transparent;
+}
+.primary-sidebar .widget.woocommerce ul li a:hover, .woocommerce ul.products li.product:hover h3 {
+    color: #ca9ce1;
+}
+#secondary{  width: 20%;}
+.main-content.full-width{width: auto;}
+.hover_effect {
+    background: rgba(0, 0, 0, 0) url("images/megnor/glass.png") repeat-Y scroll 467px 0;
+}
+/***************Button*********/
+.widget input[type="button"]:hover, .widget input[type="button"]:focus, .widget input[type="reset"]:hover, .widget input[type="reset"]:focus, .widget input[type="submit"]:hover, .widget input[type="submit"]:focus, a.button:hover, a.button:focus, button:hover, button:focus, .contributor-posts-link:hover, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, .calloutarea_button a.button:hover, .calloutarea_button a.button:focus, .button_content_inner a:hover, .button_content_inner a:focus, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce #content input.button.disabled, .woocommerce #content input.button:disabled, .woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce-page #content input.button.disabled, .woocommerce-page #content input.button:disabled, .woocommerce-page #respond input#submit.disabled, .woocommerce-page #respond input#submit:disabled, .woocommerce-page a.button.disabled, .woocommerce-page a.button:disabled, .woocommerce-page button.button.disabled, .woocommerce-page button.button:disabled, .woocommerce-page input.button.disabled, .woocommerce-page input.button:disabled {
+    border: 1px solid #ca9ce1;
+}
+.widget input[type="button"]:active, .widget input[type="reset"]:active, .widget input[type="submit"]:active, button:active, .contributor-posts-link:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .calloutarea_button a.button:active, .button_content_inner a:active, .woocommerce #content input.button:active, .woocommerce #respond input#submit:active, .woocommerce a.button:active, .woocommerce button.button:active, .woocommerce input.button:active, .woocommerce-page #content input.button:active, .woocommerce-page #respond input#submit:active, .woocommerce-page a.button:active, .woocommerce-page button.button:active, .woocommerce-page input.button:active {
+    background: #ca9ce1;
+    border: 1px solid #ca9ce1;
+}
+#woo-products .products .container-inner .add_to_cart_button:hover, .products .container-inner .add_to_cart_button:hover {
+    border: 1px solid #ca9ce1;
+}
+/***************Header*********/
+.site-top{
+    margin: 0;
+    border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.topbar-outer {
+    position: relative;
+}
+.topbar-outer:after {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0) url("images/megnor/pattern.png") repeat-x scroll 0 0;
+    height: 7px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.topbar-right {
+    margin: 6px 0px 14px;
+}
+.header-search{
+    background: none repeat scroll 0 0 #f2f2f2;
+    margin: 12px -1px 0 0;
+	padding: 5px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: 454px;
+    box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -o-border-radius: 3px 3px 3px 3px;
+}
+.header_left {
+    width: 22%;
+}
+.header_middle {
+   width: 51% !important;
+}
+.mega-menu ul li {
+    background: url("images/megnor/menu_saprator.png") no-repeat scroll right 0 transparent;
+    background-position: right;
+}
+.header-search .search-field, .header-search input[type="text"] {
+    border: 1px solid #f2f2f2;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.14) inset;
+	-moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.14) inset;
+-webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.14) inset;
+    width: 359px;
+}
+.header-search button[type="submit"], .widget_product_search #searchsubmit, .header-search #searchform #searchsubmit {
+    background: #ca9ce1;
+	margin-left: 12px;
+}
+.header_cart .togg #shopping_cart {
+    background: url("images/megnor/sprite.png") no-repeat scroll -15px -98px transparent;
+}
+.header_right {
+    margin: 33px 0px;
+}
+.header-contactus {
+    padding: 0;
+    line-height: 38px;
+}
+.header_cart {
+    margin-top: 0px;
+}
+/**************Menu************/
+.mega-menu{
+    left:238px;
+}
+.main-navigation{
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
+.menu-category{
+    background: #B3E19C;
+    margin-bottom: 18px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -o-border-radius: 3px 3px 3px 3px;
+}
+.mega-menu li:hover > a, .mega-menu li.focus > a, .mega-menu .current_page_item > a {
+    color: #ca9ce1;
+}
+.mega-menu ul li .sub-container.non-mega li a:hover {
+    color: #ca9ce1;
+}
+.mega-menu ul .sub li.mega-hdr li a:hover {
+    color: #ca9ce1;
+}
+.woocommerce ul.products li.product .yith-wcqv-button:hover::before, .woocommerce-page ul.products li.product .yith-wcqv-button:hover::before, .woocommerce a.compare.button:hover {
+    color: #ca9ce1;
+}
+.breadcrumb_last, .woocommerce .woocommerce-breadcrumb span, .woocommerce-page .woocommerce-breadcrumb span {
+    color: #ca9ce1;
+}
+.entry-date .month, .grid .blog-list .entry-date .month, .blog-list .entry-date .month {
+    border: 1px solid #ca9ce1;
+}
+.site-content .entry-meta > span:hover i, .site-content .entry-meta > span a:hover, .site-content .entry-meta > span:hover {
+    color: #ca9ce1;
+}
+.paging-navigation a:hover, .paging-navigation .page-numbers.current {
+    border: 1px solid #ca9ce1;
+}
+.blockquote-inner.style-1 blockquote.blockquote {
+    background: url("images/megnor/quote.png") no-repeat scroll 0 5px transparent;
+    padding: 0 10px 0 40px;
+    border-right: 5px solid #ca9ce1;
+}
+.blockquote-inner.style-4 blockquote.blockquote {
+    border: 2px solid #ca9ce1;
+}
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a:hover {
+    background: #ca9ce1;
+}
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active, .woocommerce div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
+    background: #ca9ce1;
+}
+.gallery-caption, .filter-container .block_hover {
+    background: none repeat scroll 0 0 rgba(69, 168, 162, 0.6);
+}
+/**************topbar************/
+.topbar-main .fa {
+    color: #9c8626;
+}
+.header-menu-links li {
+    background: url("images/megnor/top_pipe.jpg") no-repeat scroll left center transparent;
+}
+/*******************Product***************/
+.header_banner{float:none; display:inline-block;}
+.header_middle{display: inline-block; float: none; text-align:center; width:58%;text-align: center;margin: 20px 0;}
+.header_banner li{float:none; display:inline-block; text-align:left; }
+.tm_cms_banner .cms-image{    padding: 17px 0 0 30px;}
+.yith_magnifier_zoom_magnifier { left:380px !important;}
+.blog .simple-type.small-title { margin: 5px 8px 10px;}
+.blog .inner-container {    margin: 0 -5px;}
+.blog .blog-posts-content.posts-content .container {  margin: 0 8px 15px;}
+.category-toolbar{  margin: 0 2px 21px;}
+.woocommerce #content nav.woocommerce-pagination, .woocommerce nav.woocommerce-pagination, .woocommerce-page #content nav.woocommerce-pagination, .woocommerce-page nav.woocommerce-pagination{  margin: 21px 2px;}
+.single-product #primary{ width: 78.2%;}
+.shop-right-sidebar .mega-menu, .site-header.right-sidebar .mega-menu {
+    left: 0;
+    right: auto;
+}
+.products.list .star-rating{left:46px;}
+.woocommerce table.wishlist_table{ font-size: 14px;}
+article.post{ margin: 2px 2px 21px;}
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+    background: url("images/megnor/sprite.png") no-repeat scroll -204px 2px transparent;
+    right: 25px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+    background: url("images/megnor/sprite.png") no-repeat scroll -234px 2px transparent;
+}
+/****************Services********************/
+.sub_banner {
+    border: 1px solid #e6e6e6;
+	border-radius:5px;
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+-moz-border-radius:5px;
+}
+.tm_cms_banner .maintitle {
+    color: #000000;
+}
+.tm_cms_banner .subtitle {
+    color: #939393;
+}
+/****************Blog********************/
+.blog-posts-content .post-date .fa,.blog-posts-content .comments-link .fa {
+    color: #ca9ce1;
+}
+.blog-posts-content .post-author {
+    color: #ca9ce1;
+}
+/****************Sidebar********************/
+.primary-sidebar .widget {
+    padding: 15px 0;
+    margin: 0 0 21px;
+}
+.widget .widget-title{
+    padding: 0 11px 13px 0;
+    color: #000000;
+}
+.primary-sidebar .widget ul, .widget .tagcloud{
+    padding-top: 10px;
+    border-top: 1px solid #d5d5d5;
+}
+.primary-sidebar .widget.woocommerce ul li {
+    padding: 9px 0;
+}
+.menu-category ul li.cat-parent {
+	background-color:#fff;
+}
+.menu-category ul li.cat-parent:hover {
+	background-color: #ffffff;
+}
+.menu-category ul li{
+    padding:7px 0;
+	background:#fff;
+}
+.right-sidebar #primary{
+    width: 78.2%;
+}
+.footer-sidebar .widget, .primary-sidebar .widget {
+    background: none;
+    border: none;
+}
+.product-categories .children {
+	border-color: #B3E19C;
+}
+.post-image-hover .links-outer a i:hover {
+	background: rgba(69, 168, 162, 0.6);
+}
+/***************Contact Form**************/
+.txt_cnct {
+    width: 100%;
+}
+.txt_cnct input {
+    width: 550px;
+}
+.contact textarea {
+    height: 100px;
+    width: 550px;
+}
+.woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li span.current {
+	background: #ca9ce1;
+}
+/***********Footer**************/
+#to_top {
+    background: url("images/megnor/up.png") no-repeat scroll 0 0;
+}
+.site-footer {
+    padding: 0;
+}
+.footer-block {
+    background: none repeat scroll 0 0 #ca9ce1;
+}
+.footer-block h3, .sub-title {
+    color: #ffffff;
+}
+.footer-block h3::before {
+    color: #ffffff;
+}
+.footer-block .newsletter.newsletter-widget .newsletter-submit, .site-footer .tnp-widget .tnp-submit {
+   background: #B3E19C;
+   border: 1px solid #B3E19C;
+    color: #000000;
+}
+.footer-widget{width: 270px;}
+#footer-widget-area .first-widget { margin: 0 0 0 20px;   margin: 0 0 0 30px;}
+.footer-block .newsletter.newsletter-widget .newsletter-email{width:488px;}
+.footer-block h3{margin: 7px 0 7px 24px;}
+.footer-logo{ padding: 40px 0 20px;}
+.site-info {
+    float: left;
+    margin: 18px 0 15px;
+}
+.footer-bottom {
+    border-top: 0;
+    background: rgba(0, 0, 0, 0) url("images/megnor/footer-pattern.png") repeat-x scroll 0 0;
+    height: 8px;
+    text-align: center;
+    background-color: #B3E19C;
+}
+.site-footer .footer-bottom a, .site-info{
+	color: #000;
+}
+.footer-menu, .footer-menu-links {
+    margin: 18px 0 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-payment {
+    float: right;
+    margin: 12px 0;
+}
+ul.accepted-payment-methods li span {
+    width: 36px !important;
+}
+.woocommerce .woocommerce-info::before, .woocommerce-page .woocommerce-info::before {
+	background-color: #ca9ce1;
+}
+.woocommerce .woocommerce-info, .woocommerce-page .woocommerce-info {
+	border-color: #ca9ce1;
+}
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a,.woocommerce #content div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a:hover{
+	border-color: #ca9ce1;
+}
